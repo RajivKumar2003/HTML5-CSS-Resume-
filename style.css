@@ -1,0 +1,167 @@
+.container {
+  width: 100%;   
+  padding: 1em;
+}
+.main_header {
+  background-color: #007acc;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-family: 'Dosis', sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main_header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.navbar {
+  background-color: #005f99;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.nav_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  gap: 20px;
+}
+
+.nav_list li {
+  display: inline;
+}
+
+.nav_list a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Oxygen', sans-serif;
+  padding: 8px 16px;
+  transition: background 0.3s ease;
+}
+
+.nav_list a:hover {
+  background-color: #004b80;
+  border-radius: 4px;
+}
+
+body {
+  font-family: 'Oxygen', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e8e8e8;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.profile_container {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.profile_image img {
+  border-radius: 50%;
+  border: 4px solid #007acc;
+}
+
+.profile_name {
+  font-family: 'Dosis', sans-serif;
+  font-size: 2.5em;
+  margin: 10px 0 5px;
+}
+
+.profile_title {
+  font-weight: bold;
+  color: #007acc;
+  margin-bottom: 15px;
+}
+
+.profile_description {
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.section {
+  margin-top: 40px;
+}
+
+.section h2 {
+  font-size: 1.5em;
+  color: #007acc;
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+}
+
+.skills_list {
+  list-style: square inside;
+  padding-left: 0;
+}
+
+.experience_item h3 {
+  margin: 15px 0;
+}
+
+.academic_table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+}
+
+.academic_table th,
+.academic_table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.academic_table th {
+  background-color: #007acc;
+  color: white;
+  font-weight: bold;
+}
+
+.academic_table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.social_links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 40px 0;
+}
+
+.social_links img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.social_links img:hover {
+  transform: scale(1.2);
+}
+
+
+.footer {
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  background-color: #f1f1f1;
+}
